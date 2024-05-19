@@ -1,0 +1,7 @@
+name: AwsBucketAdvancedSample
+runtime: go
+description: create aws s3 bucket with versioning, public access block, server side encryption turned on and using aws KMS(this key should have aws kms alias)
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/da051ffa-b531-4977-9b05-d74b57c0faa6.zip
